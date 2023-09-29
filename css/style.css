@@ -1,0 +1,58 @@
+*{	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Pridi', serif;
+	list-style:none;
+	text-decoration:none;
+	}
+	
+	
+nav{
+	background-color:darksalmon;
+	font-size:20px;
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	
+}	
+	
+nav li{
+	display:inline-block;
+	margin:0px 10px;
+}
+
+.logo{
+	font-size:36px;
+}
+
+
+nav a:hover{
+	color:whitesmoke;
+}
+
+.line{
+	background-color:red;
+	height:5px;
+	width:20px;
+	margin-bottom:6px;
+	margin-right:40px;
+	
+	
+}
+
+.menu{
+	cursor:pointer;
+    display:none;
+}
+
+.showmenu{
+	display:block;
+	
+	transition:all  1.5s ease-in-out;
+	
+}
+
+
+
+	

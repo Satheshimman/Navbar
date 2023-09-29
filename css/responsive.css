@@ -1,0 +1,33 @@
+@media (max-width:640px){
+	
+	
+	nav{
+		flex-direction:column !important;
+	}
+	
+	nav li{
+		display:block!important;
+		margin:10px 0px;
+	}
+	
+	ul{
+		text-align:center;
+		padding:0;
+		display:none;
+	}
+	
+	
+	.logo{
+		
+		align-self:flex-start;
+		margin:10px 0px 0px 30px;
+	}
+	
+	.menu{
+		display:block;
+		position:absolute;
+		right:25px;
+		top:25px;
+	}
+	
+}
